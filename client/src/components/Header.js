@@ -8,7 +8,7 @@ const Header = () => {
     <div>
     <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#">Student Contact form</Navbar.Brand>
+          <Navbar.Brand href="# ">Student Contact form</Navbar.Brand>
         
         </Container>
       </Navbar>

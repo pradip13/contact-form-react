@@ -7,7 +7,7 @@ require('dotenv').config();
 const port = 7000;
 
 const mongoose = require("mongoose");
-require("./db/conn")
+require("./db/conn");
 
 const router = require("./routes/router");
 
@@ -21,6 +21,8 @@ app.use(express.json());
 
 
 app.use(router);
+
+
 
 
 app.listen(port,()=>{
